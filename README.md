@@ -2,6 +2,27 @@
 
 [中文](#中文介绍) | [English](#english-introduction)
 
+![通知效果示意图](replay_notify.png)
+---
+
+## English Introduction
+
+A lightweight OBS replay save notification script that automatically detects system language and shows bilingual notifications at the top-right corner when a replay is saved. Simple, elegant, and non-intrusive.
+
+### Features
+
+- Listen to OBS replay buffer saved event  
+- Automatically switch notification language for Chinese and English systems  
+- Borderless, semi-transparent, topmost notification window that auto-closes after 3 seconds  
+- Implemented with cross-platform tkinter, lightweight and dependency-free  
+
+### Installation & Usage
+
+1. Make sure OBS’s replay buffer feature is enabled  
+2. Download the `replay_notify.py` script  
+3. Open OBS → Tools → Scripts, and add the script  
+4. Bind a hotkey for “Save Replay” (in Replay Buffer settings)  
+5. Notification popup appears at the top-right corner on each replay save  
 ---
 
 ## 中文介绍
@@ -25,24 +46,3 @@
 ## 效果展示
 
 ![通知效果示意图](replay_notify.png)
-
----
-
-## English Introduction
-
-A lightweight OBS replay save notification script that automatically detects system language and shows bilingual notifications at the top-right corner when a replay is saved. Simple, elegant, and non-intrusive.
-
-### Features
-
-- Listen to OBS replay buffer saved event  
-- Automatically switch notification language for Chinese and English systems  
-- Borderless, semi-transparent, topmost notification window that auto-closes after 3 seconds  
-- Implemented with cross-platform tkinter, lightweight and dependency-free  
-
-### Installation & Usage
-
-1. Make sure OBS’s replay buffer feature is enabled  
-2. Download the `replay_notify.py` script  
-3. Open OBS → Tools → Scripts, and add the script  
-4. Bind a hotkey for “Save Replay” (in Replay Buffer settings)  
-5. Notification popup appears at the top-right corner on each replay save  
