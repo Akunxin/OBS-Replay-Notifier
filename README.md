@@ -1,5 +1,4 @@
 # OBS-Replay-Notifier
-# OBSReplayNotifier
 
 [中文](#中文介绍) | [English](#english-introduction)
 
